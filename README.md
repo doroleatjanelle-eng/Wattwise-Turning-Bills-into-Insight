@@ -1,11 +1,11 @@
-## Wattwise: Turning Bills Into Insight
+## ⚡Wattwise: Turning Bills Into Insight
 
-## Application Description
+## 📄Application Description
 
 Wattwise is a Python-based command-line application that helps users track, analyse, and visualise their monthly electricity bills.  
 It automatically calculates energy consumption and cost per kilowatt-hour (kWh), compares month‑to‑month usage, generates trend graphs, and produces detailed year‑end summaries – turning raw bill data into actionable insights.
 
-## The Application Allows User To
+## 📊The Application Allows User To
 
 - Add new electricity bill records (year, month, meter readings, total amount)
 - Automatically compute **units consumed** and **kWh price**
@@ -13,7 +13,7 @@ It automatically calculates energy consumption and cost per kilowatt-hour (kWh),
 - View a graphical trend of consumption and bill amount over time
 - Generate a year‑end summary with totals, averages, highest/lowest months, and year‑over‑year comparison
 
-## OOP Concepts Used
+## 🧠OOP Concepts Used
 
 - **Encapsulation** – Each class (`Record`, `RecordRepository`, `Analyzer`, etc.) hides internal data and exposes only necessary methods.  
   Example: `Record` uses private attributes (`_year`, `_month`, etc.) with `@property` getters/setters for validation.
@@ -24,7 +24,7 @@ It automatically calculates energy consumption and cost per kilowatt-hour (kWh),
 
 - **Separation of Concerns** – Each class has a single, well-defined responsibility (e.g., `RecordRepository` handles only CSV I/O, `Analyzer` handles only comparisons and plots).
 
-## Technologies Used
+## ⚙️Technologies Used
 
 - **Language:** Python 3.7+
 - **Libraries:**
@@ -33,7 +33,7 @@ It automatically calculates energy consumption and cost per kilowatt-hour (kWh),
   - `csv` (standard library) – reading/writing CSV files
 - **Storage:** CSV file (`watt_record.csv`)
 
-## Project Structure
+## 🏗️Project Structure
 
 ```
 wattwise/
@@ -48,11 +48,11 @@ wattwise/
 └── README.md
 ```
 
-## How to Run
+## ▶️How to Run
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/wattwise.git
+   git clone https://github.com/doroleatjanelle-eng/Wattwise-Turning-Bills-into-Insight.git
    cd wattwise
    ```
 
@@ -77,7 +77,7 @@ wattwise/
 
 ---
 
-## Features (Detailed)
+## 🌟Features
 
 - 📝 **Add new bill records** – store year, month, previous/current readings, and amount.
 - 🧮 **Consumption and cost calculator** – automatically computes units consumed (current – previous) and kWh price (amount / consumption).
